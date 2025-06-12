@@ -92,6 +92,7 @@ npx shadcn@latest add textarea
 npx shadcn@latest add select
 npx shadcn@latest add dialog
 ```
+Visit `https://ui.shadcn.com/docs/components` to see the full list of available components.
 
 ## Project Structure
 
