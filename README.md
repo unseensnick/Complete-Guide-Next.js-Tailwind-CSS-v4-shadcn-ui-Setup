@@ -39,6 +39,26 @@ Initialize shadcn/ui in your project:
 npx shadcn@latest init
 ```
 
+**Choose your base color theme:**
+
+-   **Neutral** - Clean, minimal design
+-   **Gray** - Classic, timeless design
+-   **Zinc** - Modern, industrial look
+-   **Stone** - Warm, earthy palette
+-   **Slate** - Cool, sophisticated theme
+
+### Customizing Themes
+
+**Changing themes later:** Delete the `components.json` file and re-run `npx shadcn@latest init` to select a different base theme.
+
+**Custom themes:** Edit `src/app/globals.css` and modify the CSS variables in the `:root` and `.dark` selectors to create your own color palette.
+
+### Helpful Resources
+
+-   [shadcn/ui Theme Gallery](https://ui.shadcn.com/themes) - Visual preview of all color palettes
+-   [shadcn/ui Theming Guide](https://ui.shadcn.com/docs/theming) - Complete theming documentation
+-   [Tailwind CSS Colors](https://tailwindcss.com/docs/customizing-colors) - Advanced color customization
+
 ## Step 4: Test Your Setup
 
 Add your first shadcn/ui component:
